@@ -20,9 +20,6 @@ mongoose.connection.once("open", () => {
   console.log("DB conncted.");
 });
 
-app.get("/", (req, res) => {
-  res.send("Hi");
-});
 
 app.use("/register", require("./routes/register.js"));
 app.use("/login", require("./routes/login.js"));
