@@ -1,0 +1,149 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 229, 168, 1) 0%,
+    rgba(251, 174, 222, 1) 100.7%
+  );
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  font-family: "Nunito", sans-serif;
+}
+.cont {
+  overflow: hidden;
+  position: relative;
+  width: 60vw;
+  height: 70vh;
+  background: #fff;
+  background-image: url("./images/bg.jpg");
+  background-size: contain;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.sideContent {
+  flex: 0.28;
+}
+
+.mainContent {
+  background-color: white;
+  flex: 0.72;
+  display: grid;
+  place-items: center;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+h2 {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  width: 260px;
+  margin: 25px auto 0;
+  text-align: center;
+}
+label span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #505f75;
+  text-transform: uppercase;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.submit {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  background: -webkit-linear-gradient(left, #1ac2ce, #d4b879);
+}
+
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10%;
+}
+
+.side {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+}
+.side-text {
+  color: white;
+}
+
+.side-text > h2 {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.side-text > p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.side-btn > button {
+  margin: 0 0;
+}
+
+.side-btn {
+  display: grid;
+  place-items: center;
+  width: 60%;
+  height: 20%;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  margin: 0 auto;
+  background: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.side-btn > button {
+  font-size: 15px;
+  color: #fff;
+}
+
+.linkDeco {
+  text-decoration: inherit;
+  color: inherit;
+}
